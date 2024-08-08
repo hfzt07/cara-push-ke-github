@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/(usn github)/(nama repo).git
+<-Kalau git remote bermasalah pake ini->
+git remote remove origin
+<-Kalau git remote bermasalah pake ini->
+git push -u origin main
